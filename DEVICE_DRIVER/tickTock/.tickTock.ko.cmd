@@ -1,0 +1,1 @@
+cmd_/home/neeraj/Desktop/CN/DEVICE_DRIVER/tickTock/tickTock.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/neeraj/Desktop/CN/DEVICE_DRIVER/tickTock/tickTock.ko /home/neeraj/Desktop/CN/DEVICE_DRIVER/tickTock/tickTock.o /home/neeraj/Desktop/CN/DEVICE_DRIVER/tickTock/tickTock.mod.o ;  true

@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<sys/ipc.h>
+#include<sys/msg.h>
+#include<sys/types.h>
+#include<string.h>
+#include<sys/wait.h>
+#include<stdbool.h>
+#include<unistd.h>
+#include<pthread.h>

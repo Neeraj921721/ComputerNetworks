@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main(int argc,char *argv[]){
+	int a,b;
+	a=atoi(argv[1]);
+	b=atoi(argv[2]);
+	int z=a+b;
+	int fd=open("o2.txt",O_RDWR|O_CREAT);
+	char ch[10];
+	sprintf(ch,"%d",a);
+	write(fd,ch,strlen(ch)+1);
+	close(fd);
+return 0;
+}
