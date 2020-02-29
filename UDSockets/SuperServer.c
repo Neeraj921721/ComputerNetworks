@@ -18,6 +18,7 @@
 #include<netinet/in.h>
 #include<netdb.h>
 #include<pthread.h>
+#include<stdbool.h>
 #define SOCK_PATH "skipper"
 #define PORT 8080
 
